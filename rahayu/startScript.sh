@@ -704,15 +704,15 @@ else
 	#====================================================================#
 	#                        INSTALL CODEIGNITER 4                       #
 	#====================================================================#
-	print_text "Starting CodeIgniter installation"
-	cd /var/www/html && \
-	composer create-project codeigniter4/appstarter:$new_version $app_name
+	#print_text "Starting CodeIgniter installation"
+	#cd /var/www/html && \
+	#composer create-project codeigniter4/appstarter:$new_version $app_name
 
 	#====================================================================#
 	#                          Create test file                          #
 	#====================================================================#
-	print_text "Create Test file"
-	printf "<?php\nphpinfo();\n?>" > /var/www/html/$app_name/public/test.php
+	#print_text "Create Test file"
+	#printf "<?php\nphpinfo();\n?>" > /var/www/html/$app_name/public/test.php
 
 	#====================================================================#
 	#                            Permissions                             #
