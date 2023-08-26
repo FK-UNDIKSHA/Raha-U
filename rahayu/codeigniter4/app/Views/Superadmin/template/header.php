@@ -39,4 +39,4 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css
     </style>
 
 </head>
-<?= view('admin/template/sidebar') ?>
+<?= view('Superadmin/template/sidebar') ?>
