@@ -110,23 +110,3 @@
         });
     });
 </script>
-<script>
-    // disable clicking on all elements
-    function disableClick() {
-        document.querySelectorAll('*').forEach(function(el) {
-            el.style.pointerEvents = 'none';
-        });
-    }
-
-    // enable clicking on link to change password
-    function enableClick() {
-        document.getElementById('change-password-link').style.pointerEvents = 'auto';
-    }
-
-    // check if warning message is present
-    var warningMessage = document.querySelector('.alert-warning');
-    if (warningMessage) {
-        disableClick();
-        enableClick();
-    }
-</script>
