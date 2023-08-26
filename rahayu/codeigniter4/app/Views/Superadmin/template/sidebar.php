@@ -22,7 +22,7 @@
             <!-- Brand Logo -->
             <a class="brand-link mb-2">
                 <img src="<?= base_url('img/support.png') ?>" alt="HelpDesk" class="brand-image img-circle elevation-3" style="opacity: .8">
-                <span class="brand-text font-weight-light">HelpDesk</span>
+                <span class="brand-text font-weight-light">RAHA-U</span>
             </a>
 
             <!-- Sidebar -->
@@ -38,42 +38,6 @@
                                     Dashboard
                                 </p>
                             </a>
-                        </li>
-                        <!-- Laporan menu item -->
-                        <li class="nav-item has-treeview" style="margin-top: 10px;">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon fas fa-file fa-lg"></i>
-                                <p>
-                                    Laporan
-                                    <i class="fas fa-angle-left right"></i>
-                                </p>
-                            </a>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="<?= base_url('admin/laporan') ?>" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Semua Laporan</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="<?= base_url('admin/laporanp') ?>" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Laporan Diproses</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="<?= base_url('admin/laporans') ?>" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Laporan Selesai</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="<?= base_url('admin/laporand') ?>" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Laporan Ditolak</p>
-                                    </a>
-                                </li>
-                            </ul>
                         </li>
                         <!-- Pengguna menu item -->
                         <li class="nav-item">

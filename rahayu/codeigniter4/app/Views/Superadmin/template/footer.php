@@ -4,8 +4,8 @@
     <!-- Default to the left -->
     <center>
         <strong>Copyright &copy; 2023
-            <a href="#">PROJECT MAGANG SAYA PUNYA PROJECT MAGANG</a>.
-        </strong> All not rights.
+            <a href="#">RAHA-U Official Website/a>.
+        </strong> All rights reserved.
     </center>
 </footer>
 
