@@ -16,9 +16,10 @@
 defined('APP_NAMESPACE') || define('APP_NAMESPACE', 'App');
 
 //BaseURL Dynamic
-$base = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off' ? 'https://'.$_SERVER['HTTP_HOST'].dirname($_SERVER['SCRIPT_NAME']) : 'http://'.$_SERVER['HTTP_HOST'].dirname($_SERVER['SCRIPT_NAME']);
+$server_name = !empty($_SERVER['SERVER_NAME']) ? $_SERVER['SERVER_NAME'] : 'localhost:8080';
 
-defined('BASE') || define('BASE', $base);
+$base_url = (!empty($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $server_name . '/';
+defined('BASE') || define('BASE', $base_url);
 
 /*
  | --------------------------------------------------------------------------
