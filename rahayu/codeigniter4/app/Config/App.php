@@ -24,8 +24,8 @@ class App extends BaseConfig
      *
      * @var string
      */
-    
-    public $baseURL = BASE; //'http://localhost:8080/';
+    //this is temporary T_T, for the server Shake :)
+    public $baseURL = "100.64.90.79"; //BASE; //'http://localhost:8080/';
 
     /**
      * --------------------------------------------------------------------------
