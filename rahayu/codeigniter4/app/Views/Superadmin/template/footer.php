@@ -18,7 +18,7 @@
 <!-- Bootstrap 4 -->
 <script src="<?= base_url('assets/plugins/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
 <!-- AdminLTE App -->
-<script src="<?= base_url('assets/dist/js/adminlte.min.js') ?>"></script>
+<script src="<?= base_url('assets/addon/js/adminlte.min.js') ?>"></script>
 <!-- datatable -->
 <script src="<?= base_url('assets/plugins/datatables/jquery.dataTables.min.js') ?>"></script>
 <script src="<?= base_url('assets/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js') ?>"></script>
@@ -62,26 +62,6 @@
 </script>
 
 
-<!-- data tabel pengguna -->
-<script>
-    $(document).ready(function() {
-        $('#pengguna').DataTable({
-            "pagging": true,
-            "ordering": true,
-        });
-    });
-</script>
-
-<!-- data tabel laporan -->
-<script>
-    $(document).ready(function() {
-        $('#laporan').DataTable({
-            "pagging": true,
-            "ordering": true,
-            // "responsive": true,
-        });
-    });
-</script>
 
 <!-- SweetAlert -->
 <!-- login sukses -->
