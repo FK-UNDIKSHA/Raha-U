@@ -18,7 +18,7 @@ defined('APP_NAMESPACE') || define('APP_NAMESPACE', 'App');
 //BaseURL Dynamic
 $server_name = !empty($_SERVER['SERVER_NAME']) ? $_SERVER['SERVER_NAME'] : 'localhost:8080';
 
-$base_url = (!empty($_SERVER['HTTPS']) ? 'http' : 'http') . '://' . $server_name . '/';
+$base_url = (!empty($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $server_name . '/';
 defined('BASE') || define('BASE', $base_url);
 
 /*
