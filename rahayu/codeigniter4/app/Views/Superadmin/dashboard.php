@@ -1,6 +1,6 @@
 <!-- Header -->
 
-<?= view('admin/template/header') ?>
+<?= view('Superadmin/template/header') ?>
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
@@ -29,4 +29,4 @@
 <!-- login sukses -->
 
 
-<?= view('admin/template/footer') ?>
+<?= view('Superadmin/template/footer') ?>
