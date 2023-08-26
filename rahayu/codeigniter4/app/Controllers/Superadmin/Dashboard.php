@@ -8,6 +8,7 @@ class Dashboard extends BaseController
 {
     public function index()
     {
-        return view('\App\Views\Superadmin\dashboard.php');
+        return view('\App\Views\Superadmin\dashboard.php',
+                   ['title' => "Superadmin Dashboard",]);
     }
 }
