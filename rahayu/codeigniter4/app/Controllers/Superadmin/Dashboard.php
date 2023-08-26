@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Controllers;
-namespace App\Controllers\Superadmin;
+//namespace App\Controllers\Superadmin;
 //use CodeIgniter\BaseController;
 
 class Dashboard extends BaseController
