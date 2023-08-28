@@ -32,8 +32,16 @@
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu">
                         <!-- Dashboard menu item -->
                         <li class="nav-item">
-                            <a href="<?= base_url('admin/dashboard') ?>" class="nav-link">
+                            <a href="<?= base_url('superadmin/dashboard') ?>" class="nav-link">
                                 <i class="nav-icon fas fa-house"></i>
+                                <p>
+                                    Dashboard
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="<?= base_url('superadmin/Jadwal Kunjungan') ?>" class="nav-link">
+                                <i class="nav-icon fas fa-clock"></i>
                                 <p>
                                     Dashboard
                                 </p>
