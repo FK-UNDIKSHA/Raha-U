@@ -59,10 +59,8 @@
                         </li>
                         <!-- Keluar menu item -->
                         <li class="nav-item">
-                            <?php if (session()->get('isLoggedIn')) : ?>
                                 <a href="#" class="nav-link" onclick="logoutConfirmation()">
                                     <i class="nav-icon fas fa-sign-out-alt"></i>
-                                <?php endif; ?>
                                 <p>
                                     Keluar
                                 </p>
