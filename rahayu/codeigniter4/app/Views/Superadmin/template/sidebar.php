@@ -40,10 +40,10 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?= base_url('superadmin/Jadwal Kunjungan') ?>" class="nav-link">
+                            <a href="<?= base_url('superadmin/jadwaldktr') ?>" class="nav-link">
                                 <i class="nav-icon fas fa-clock"></i>
                                 <p>
-                                    Dashboard
+                                    Jadwal Dokter
                                 </p>
                             </a>
                         </li>
