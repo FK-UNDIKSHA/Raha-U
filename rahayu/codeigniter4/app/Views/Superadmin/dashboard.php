@@ -19,7 +19,7 @@
             <div class="col-lg-3 col-6">
                 <div class="small-box bg-info">
                     <div class="inner">
-                        <h3>Dokter</h3>
+                        <h4>Dokter</h4>
                         <!-- Isi dengan data atau informasi yang sesuai -->
                     </div>
                     <div class="icon">
