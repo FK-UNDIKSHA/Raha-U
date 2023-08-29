@@ -4,8 +4,8 @@
     <!-- Default to the left -->
     <center>
         <strong>Copyright &copy; 2023
-            <a href="#">RAHA-U Official Website </a>.
-        </strong> All rights reserved.
+            <a href="#">RAHA-U Official Website </a>
+        </strong>
     </center>
 </footer>
 
@@ -81,19 +81,4 @@
             }
         })
     }
-</script>
-
-<script>
-    $(document).ready(function() {
-        $('.toggle-password').click(function() {
-            $(this).toggleClass('active');
-            var passwordInput = $('#password-input');
-            var passwordFieldType = passwordInput.attr('type');
-            if (passwordFieldType === 'password') {
-                passwordInput.attr('type', 'text');
-            } else {
-                passwordInput.attr('type', 'password');
-            }
-        });
-    });
 </script>
