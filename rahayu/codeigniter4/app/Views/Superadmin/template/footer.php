@@ -4,7 +4,7 @@
     <!-- Default to the left -->
     <center>
         <strong>Copyright &copy; 2023
-            <a href="#">RAHA-U Official Website/a>.
+            <a href="#">RAHA-U Official Website </a>.
         </strong> All rights reserved.
     </center>
 </footer>
