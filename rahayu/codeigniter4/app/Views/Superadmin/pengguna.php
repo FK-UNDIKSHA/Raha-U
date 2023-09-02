@@ -26,7 +26,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="card">
-                        <div class="card-header" style="background-color: #2769AE;">
+                        <div class="card-header" style="background-color: #2026C2;">
                             <h3 class="card-title" style="color: white;">Superadmin</h3>
                             <button type="button" class="btn btn-primary float-right" onclick="window.location='<?php echo site_url('superadmin/form_tambah') ?>'">
                                 <i class="fas fa-user-plus"></i>
@@ -68,7 +68,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="card">
-                        <div class="card-header" style="background-color: #2769AE;">
+                        <div class="card-header" style="background-color: #2026C2;">
                             <h3 class="card-title" style="color: white;">Dokter</h3>
                         </div>
                         <!-- /.card-header -->
@@ -109,7 +109,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="card">
-                        <div class="card-header" style="background-color: #2769AE;">
+                        <div class="card-header" style="background-color: #2026C2;">
                             <h3 class="card-title" style="color: white;">Pengguna/Pasien</h3>
                         </div>
                         <!-- /.card-header -->
