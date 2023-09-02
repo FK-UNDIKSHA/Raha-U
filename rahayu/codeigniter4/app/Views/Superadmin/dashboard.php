@@ -43,7 +43,7 @@
             <div class="col-lg-3 col-6">
                 <div class="small-box bg-warning">
                     <div class="inner">
-                        <h3 style="font-size: 24px;">Total Pemasukan</h3>
+                        <h3 style="font-size: 24px;">Income</h3>
                         <!-- Isi dengan data atau informasi yang sesuai -->
                     </div>
                     <div class="icon">
@@ -55,7 +55,7 @@
             <div class="col-lg-3 col-6">
                 <div class="small-box bg-danger">
                     <div class="inner">
-                        <h3 style="font-size: 24px;">Kontak</h3>
+                        <h3 style="font-size: 24px;">Saya ?</h3>
                         <!-- Isi dengan data atau informasi yang sesuai -->
                     </div>
                     <div class="icon">
