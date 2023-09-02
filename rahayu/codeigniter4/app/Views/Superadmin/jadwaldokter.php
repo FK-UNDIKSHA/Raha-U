@@ -8,6 +8,9 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
+                    <h1 class="m-0">Jadwal Operasional Dokter</h1>
+                </div>
+                <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li id="realtime-clock" class="breadcrumb-item"></li>
                     </ol>
@@ -23,32 +26,22 @@
             <div class="row">
                 <div class="col-12">
                     <div class="card">
-                        <div class="card-header">
-                            <h3 class="card-title">Jadwal Operasional Dokter</h3>
+                        <div class="card-header" style="background-color: #2060C2;">
+                            <h3 class="card-title">Tabel Jadwal Operasional</h3>
                         </div>
                         <!-- /.card-header -->
                         <div class="card-body">
                             <table class="table table-bordered table-striped">
                                 <thead>
                                     <tr>
-                                        <th>Nama Dokter</th>
-                                        <th>Hari Operasional</th>
-                                        <th>Jam Operasional</th>
+                                        <th class="text-center">No</th>
+                                        <th class="text-center">Nama Dokter</th>
+                                        <th class="text-center">Hari Bertugas</th>
+                                        <th class="text-center">Jam Kerja</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <!-- Isi tabel dengan data jadwal operasional dokter -->
-                                    <tr>
-                                        <td>Dokter A</td>
-                                        <td>Senin - Jumat</td>
-                                        <td>08:00 - 17:00</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dokter B</td>
-                                        <td>Senin - Sabtu</td>
-                                        <td>09:00 - 18:00</td>
-                                    </tr>
-                                    <!-- Tambahkan baris data lainnya sesuai kebutuhan -->
+                                    <!-- no data -->
                                 </tbody>
                             </table>
                         </div>
