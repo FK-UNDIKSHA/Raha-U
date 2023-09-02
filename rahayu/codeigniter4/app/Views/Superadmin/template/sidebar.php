@@ -18,7 +18,7 @@
         </nav>
         <!-- /.navbar -->
         <!-- Main Sidebar Container -->
-        <aside class="main-sidebar sidebar-dark-primary elevation-4" style="position: fixed; top:0;">
+        <aside class="main-sidebar sidebar-dark-primary elevation-4" style="position: fixed; top:0; background-color: #2060C2">
             <!-- Brand Logo -->
             <a class="brand-link mb-2">
                 <img src="<?= base_url('assets/img/RAHA-U (Logo).png') ?>" alt="RAHA-U" class="brand-image img-circle elevation-3" style="opacity: .8">
