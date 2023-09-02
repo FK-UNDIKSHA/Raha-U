@@ -103,6 +103,7 @@
         $('#jadwalforSA').DataTable({
             "pagging": true,
             "ordering": true,
+            "responsive": true,
         });
     });
 </script>
@@ -111,6 +112,7 @@
         $('#superadmintableforSA').DataTable({
             "pagging": true,
             "ordering": false,
+            "responsive": true,
         });
     });
 </script>
@@ -119,6 +121,7 @@
         $('#doktertableforSA').DataTable({
             "pagging": true,
             "ordering": false,
+            "responsive": true,
         });
     });
 </script>
@@ -127,6 +130,7 @@
         $('#penggunatableforSA').DataTable({
             "pagging": true,
             "ordering": false,
+            "responsive": true,
         });
     });
 </script>

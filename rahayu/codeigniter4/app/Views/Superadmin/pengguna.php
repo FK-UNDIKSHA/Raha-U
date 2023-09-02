@@ -35,7 +35,7 @@
                         </div>
                         <!-- /.card-header -->
                         <div class="card-body">
-                            <table id="superadmintableforSA" class="table table-bordered table-striped">
+                            <table id="superadmintableforSA" class="table table-bordered table-striped display">
                                 <thead>
                                     <tr>
                                         <th class="text-center">No</th>
