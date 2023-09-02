@@ -114,7 +114,7 @@
                         </div>
                         <!-- /.card-header -->
                         <div class="card-body">
-                            <table class="table table-bordered table-striped">
+                            <table id="penggunatableforSA" class="table table-bordered table-striped">
                                 <thead>
                                     <tr>
                                         <th class="text-center">No</th>

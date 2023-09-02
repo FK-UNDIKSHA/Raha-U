@@ -106,3 +106,27 @@
         });
     });
 </script>
+<script>
+    $(document).ready(function() {
+        $('#superadmintableforSA').DataTable({
+            "pagging": true,
+            "ordering": false,
+        });
+    });
+</script>
+<script>
+    $(document).ready(function() {
+        $('#doktertableforSA').DataTable({
+            "pagging": true,
+            "ordering": false,
+        });
+    });
+</script>
+<script>
+    $(document).ready(function() {
+        $('#penggunatableforSA').DataTable({
+            "pagging": true,
+            "ordering": false,
+        });
+    });
+</script>
