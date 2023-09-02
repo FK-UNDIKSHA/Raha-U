@@ -27,7 +27,7 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header" style="background-color: #2060C2;">
-                            <h3 class="card-title">Tabel Jadwal Operasional</h3>
+                            <h3 class="card-title" style="color: white;">Tabel Jadwal Operasional</h3>
                         </div>
                         <!-- /.card-header -->
                         <div class="card-body">
