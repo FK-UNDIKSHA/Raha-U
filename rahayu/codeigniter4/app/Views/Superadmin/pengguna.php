@@ -26,27 +26,27 @@
             <div class="row">
                 <div class="col-12">
                     <div class="card">
-                        <div class="card-header">
-                            <h3 class="card-title">Tabel Superadmin</h3>
+                        <div class="card-header" style="background-color: #2026C2;">
+                            <h3 class="card-title" style="color: white;">Superadmin</h3>
+                            <button type="button" class="btn btn-primary float-right" onclick="window.location='<?php echo site_url('superadmin/form_tambah') ?>'">
+                                <i class="fas fa-user-plus"></i>
+                                Tambah Superadmin
+                            </button>
                         </div>
                         <!-- /.card-header -->
                         <div class="card-body">
-                            <table class="table table-bordered table-striped">
+                            <table id="superadmintableforSA" class="table table-bordered table-striped">
                                 <thead>
                                     <tr>
-                                        <th>Nama</th>
-                                        <th>Email</th>
-                                        <th>No. Telepon</th>
+                                        <th class="text-center">No</th>
+                                        <th class="text-center">Nama</th>
+                                        <th class="text-center">Email</th>
+                                        <th class="text-center">No. WhatsApp</th>
+                                        <th class="text-center">Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <!-- Data Superadmin -->
-                                    <tr>
-                                        <td>Superadmin A</td>
-                                        <td>superadmin@example.com</td>
-                                        <td>123-456-7890</td>
-                                    </tr>
-                                    <!-- Tambahkan baris data lainnya sesuai kebutuhan -->
+                                    <!-- no data -->
                                 </tbody>
                             </table>
                         </div>
@@ -68,27 +68,26 @@
             <div class="row">
                 <div class="col-12">
                     <div class="card">
-                        <div class="card-header">
-                            <h3 class="card-title">Tabel Dokter</h3>
+                        <div class="card-header" style="background-color: #2026C2;">
+                            <h3 class="card-title" style="color: white;">Dokter</h3>
                         </div>
                         <!-- /.card-header -->
                         <div class="card-body">
-                            <table class="table table-bordered table-striped">
+                            <table id="doktertableforSA" class="table table-bordered table-striped">
                                 <thead>
                                     <tr>
-                                        <th>Nama</th>
-                                        <th>Email</th>
-                                        <th>No. Telepon</th>
+                                        <th class="text-center">No</th>
+                                        <th class="text-center">Nama</th>
+                                        <th class="text-center">Email</th>
+                                        <th class="text-center">Alamat</th>
+                                        <th class="text-center">Spesialis</th>
+                                        <th class="text-center">Asal Instansi</th>
+                                        <th class="text-center">No. WhatsApp</th>
+                                        <th class="text-center">Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <!-- Data Dokter -->
-                                    <tr>
-                                        <td>Dokter B</td>
-                                        <td>dokter@example.com</td>
-                                        <td>987-654-3210</td>
-                                    </tr>
-                                    <!-- Tambahkan baris data lainnya sesuai kebutuhan -->
+                                    <!-- no data -->
                                 </tbody>
                             </table>
                         </div>
@@ -110,27 +109,23 @@
             <div class="row">
                 <div class="col-12">
                     <div class="card">
-                        <div class="card-header">
-                            <h3 class="card-title">Tabel Pengguna/Pasien</h3>
+                        <div class="card-header" style="background-color: #2026C2;">
+                            <h3 class="card-title" style="color: white;">Pengguna/Pasien</h3>
                         </div>
                         <!-- /.card-header -->
                         <div class="card-body">
                             <table class="table table-bordered table-striped">
                                 <thead>
                                     <tr>
-                                        <th>Nama</th>
-                                        <th>Email</th>
-                                        <th>No. Telepon</th>
+                                        <th class="text-center">No</th>
+                                        <th class="text-center">Nama</th>
+                                        <th class="text-center">Email</th>
+                                        <th class="text-center">No. WhatsApp</th>
+                                        <th class="text-center">Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <!-- Data Pengguna/Pasien -->
-                                    <tr>
-                                        <td>Pengguna C</td>
-                                        <td>pengguna@example.com</td>
-                                        <td>555-555-5555</td>
-                                    </tr>
-                                    <!-- Tambahkan baris data lainnya sesuai kebutuhan -->
+                                    <!-- no data -->
                                 </tbody>
                             </table>
                         </div>
