@@ -82,3 +82,13 @@
         })
     }
 </script>
+
+<!-- DataTables -->
+<script>
+    $(document).ready(function() {
+        $('#jadwalforSA').DataTable({
+            "pagging": true,
+            "ordering": true,
+        });
+    });
+</script>
