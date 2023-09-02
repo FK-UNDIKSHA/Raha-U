@@ -54,7 +54,7 @@
         seconds = (seconds < 10 ? "0" : "") + seconds;
 
         // menampilkan tanggal dan waktu secara real-time
-        document.getElementById('realtime-clock').innerHTML = day + ', ' + date + ' ' + month + ' ' + year + ' ' + hours + ":" + minutes + ":" + seconds;
+        document.getElementById('realtime-clock').innerHTML = day + ', ' + date + ' ' + month + ' ' + year + '';
 
         setTimeout(realTimeClock, 1000); // memperbarui waktu setiap 1 detik
     }
