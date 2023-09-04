@@ -46,13 +46,15 @@
                                     <label for="whatsapp">Nomor WhatsApp</label>
                                     <input type="text" class="form-control" id="whatsapp" name="whatsapp" required placeholder="Masukkan nomor WhatsApp yang kamu gunakan!">
                                 </div>
-                                <div class="form-group">
-                                    <label for="password">Password</label>
-                                    <input type="password" class="form-control" id="password" name="password" required placeholder="Masukkan password kamu!">
-                                </div>
-                                <div class="form-group">
-                                    <label for="konfirmasi_password">Konfirmasi Password</label>
-                                    <input type="password" class="form-control" id="konfirmasi_password" name="konfirmasi_password" required placeholder="Konfirmasi password kamu!">
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="password">Password</label>
+                                        <input type="password" class="form-control" id="password" name="password" required placeholder="Masukkan password kamu!">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="konfirmasi_password">Konfirmasi Password</label>
+                                        <input type="password" class="form-control" id="konfirmasi_password" name="konfirmasi_password" required placeholder="Konfirmasi password kamu!">
+                                    </div>
                                 </div>
                                 <button type="button" class="btn btn-primary" id="btnSimpan">Simpan</button>
                                 <button type="button" class="btn btn-danger" id="btnBatal">Batal</button>
@@ -89,12 +91,12 @@
             icon: 'question',
             showCancelButton: true,
             confirmButtonText: 'Ya, Simpan',
-            cancelButtonText: 'Tidak, Batal'
+            cancelButtonText: 'Tidak'
         }).then((result) => {
             if (result.isConfirmed) {
                 // Proses penyimpanan data di sini
                 // Gantilah `action` pada form Anda dengan URL yang sesuai
-                // Misalnya, document.querySelector('form').action = 'proses_simpan.php';
+                // document.querySelector('form').action = 'proses_simpan.php';
                 // document.querySelector('form').submit();
             }
         });
@@ -102,7 +104,7 @@
 
     document.getElementById('btnBatal').addEventListener('click', function() {
         Swal.fire({
-            title: 'WARNING',
+            title: 'Konfirmasi',
             text: 'Data yang sudah dimasukkan tidak akan disimpan, anda yakin?',
             icon: 'warning',
             showCancelButton: true,
