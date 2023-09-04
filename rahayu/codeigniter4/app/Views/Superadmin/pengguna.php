@@ -30,7 +30,7 @@
                             <h3 class="card-title" style="color: white;">Superadmin</h3>
                             <button type="button" class="btn btn-primary float-right" onclick="window.location='<?php echo site_url('superadmin/form_tambah') ?>'">
                                 <i class="fas fa-user-plus"></i>
-                                Tambah Superadmin
+                                Add Data
                             </button>
                         </div>
                         <!-- /.card-header -->

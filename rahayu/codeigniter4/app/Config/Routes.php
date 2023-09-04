@@ -40,6 +40,7 @@ $routes->get('/', 'Home::index');
 $routes->get('superadmin/dashboard', 'Superadmin\Dashboard::index');
 $routes->get('superadmin/jadwal', 'Superadmin\JadwalDokter::index');
 $routes->get('superadmin/pengguna', 'Superadmin\Pengguna::index');
+$routes->get('superadmin/addsa', 'Superadmin\Pengguna::addsa');
 
 /*
  * --------------------------------------------------------------------
