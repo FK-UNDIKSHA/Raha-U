@@ -1,4 +1,4 @@
-<?= view('superadmin/template/header') ?>
+<?= view('Superadmin/template/header') ?>
 <title><?= $title ?></title>
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
@@ -106,4 +106,4 @@
 </script>
 
 
-<?= view('superadmin/template/footer') ?>
+<?= view('Superadmin/template/footer') ?>
