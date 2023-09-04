@@ -24,7 +24,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="card">
-                        <div class="card-header">
+                        <div class="card-header" style="background-color: #2060C2;">
                             <h3 class="card-title">Tambah Data</h3>
                         </div>
                         <div class="card-body">
