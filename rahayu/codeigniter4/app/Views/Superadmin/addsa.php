@@ -46,7 +46,16 @@
                                     <label for="whatsapp">Nomor WhatsApp</label>
                                     <input type="text" class="form-control" id="whatsapp" name="whatsapp" required placeholder="Masukkan nomor WhatsApp yang kamu gunakan!">
                                 </div>
-                                <button type="submit" class="btn btn-primary">Simpan</button>
+                                <div class="form-group">
+                                    <label for="password">Password</label>
+                                    <input type="password" class="form-control" id="password" name="password" required placeholder="Masukkan password kamu!">
+                                </div>
+                                <div class="form-group">
+                                    <label for="konfirmasi_password">Konfirmasi Password</label>
+                                    <input type="password" class="form-control" id="konfirmasi_password" name="konfirmasi_password" required placeholder="Konfirmasi password kamu!">
+                                </div>
+                                <button type="button" class="btn btn-primary" id="btnSimpan">Simpan</button>
+                                <button type="button" class="btn btn-danger" id="btnBatal">Batal</button>
                             </form>
                             <!-- End Form -->
                         </div>
@@ -70,3 +79,43 @@
 
 <!-- Footer -->
 <?= view('Superadmin/template/footer') ?>
+
+<!-- SweetAlert Script -->
+<script>
+    document.getElementById('btnSimpan').addEventListener('click', function() {
+        Swal.fire({
+            title: 'Konfirmasi',
+            text: 'Apakah Anda yakin ingin menyimpan data?',
+            icon: 'question',
+            showCancelButton: true,
+            confirmButtonText: 'Ya, Simpan',
+            cancelButtonText: 'Tidak, Batal'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                // Proses penyimpanan data di sini
+                // Gantilah `action` pada form Anda dengan URL yang sesuai
+                // Misalnya, document.querySelector('form').action = 'proses_simpan.php';
+                // document.querySelector('form').submit();
+            }
+        });
+    });
+
+    document.getElementById('btnBatal').addEventListener('click', function() {
+        Swal.fire({
+            title: 'Konfirmasi',
+            text: 'Apakah Anda yakin ingin membatalkan?',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonText: 'Ya, Batalkan',
+            cancelButtonText: 'Tidak, Lanjutkan'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                // Redirect ke halaman lain atau lakukan tindakan lain saat pembatalan
+                // Misalnya, window.location.href = 'halaman_lain.php';
+            }
+        });
+    });
+</script>
+</body>
+</html>
+</script>
