@@ -25,17 +25,17 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header" style="background-color: #2060C2;">
-                            <h3 class="card-title">Tambah Data</h3>
+                            <h3 class="card-title" style="color: white;">Tambah Data</h3>
                         </div>
                         <div class="card-body">
                             <!-- Form -->
                             <form action="#" method="POST">
                                 <div class="form-group">
                                     <label for="nama">Nama Lengkap</label>
-                                    <input type="text" class="form-control" id="nama" name="nama" required>
+                                    <input type="text" class="form-control" id="nama" name="nama" required title="Masukkan nama lengkap kamu!">
                                 </div>
                                 <div class="form-group">
-                                    <label for="email">Email</label>
+                                    <label for="email">E-mail</label>
                                     <input type="email" class="form-control" id="email" name="email" required>
                                 </div>
                                 <div class="form-group">
