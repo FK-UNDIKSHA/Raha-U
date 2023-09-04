@@ -12,6 +12,13 @@ class Pengguna extends BaseController
                    ['title' => "SA | Data Pengguna",]);
     }
 
+    public function myprofile()
+    {
+        $data['title'] = 'SA | Profile Saya';
+        helper('form');
+        return view('\App\Views\Superadmin\myprofile.php', $data);
+    }
+
     public function addsa()
     {
         $data['title'] = 'SA | Tambah Superadmin';

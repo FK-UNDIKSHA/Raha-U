@@ -58,7 +58,7 @@
                         </li>
                         <!-- Keluar menu item -->
                         <li class="nav-item">
-                            <a href="<?= base_url('admin/myinfo') ?>" class="nav-link">
+                            <a href="<?= base_url('superadmin/myprofile') ?>" class="nav-link">
                                 <i class="nav-icon fas fa-user"></i>
                                 <p>
                                     Profile Saya
