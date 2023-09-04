@@ -38,6 +38,7 @@
                                         <th class="text-center">Nama Dokter</th>
                                         <th class="text-center">Hari Bertugas</th>
                                         <th class="text-center">Jam Kerja</th>
+                                        <th class="text-center">Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>

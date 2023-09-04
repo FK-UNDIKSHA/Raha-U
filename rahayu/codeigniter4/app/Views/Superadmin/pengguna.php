@@ -28,7 +28,7 @@
                     <div class="card">
                         <div class="card-header" style="background-color: #2060C2;">
                             <h3 class="card-title" style="color: white;">Superadmin</h3>
-                            <button type="button" class="btn btn-primary float-right" onclick="window.location='<?php echo site_url('superadmin/form_tambah') ?>'">
+                            <button type="button" class="btn btn-success float-right" onclick="window.location='<?php echo site_url('superadmin/addsa') ?>'">
                                 <i class="fas fa-user-plus"></i>
                                 Add Data
                             </button>
