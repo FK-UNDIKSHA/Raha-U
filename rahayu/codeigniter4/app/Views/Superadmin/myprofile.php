@@ -33,19 +33,19 @@
                                     <form action="#">
                                         <div class="form-group">
                                             <label>Nama Lengkap</label>
-                                            <input type="text" class="form-control" name="nama" value="<?= session()->get('nama') ?>" disabled readonly>
+                                            <input type="text" class="form-control" name="nama" value="no data" disabled readonly>
                                         </div>
                                         <div class="form-group">
                                             <label>E-mail</label>
-                                            <input type="text" class="form-control" name="email" value="<?= session()->get('email') ?>" disabled readonly>
+                                            <input type="text" class="form-control" name="email" value="no data" disabled readonly>
                                         </div>
                                         <div class="form-group">
                                             <label>Alamat</label>
-                                            <input type="text" class="form-control" name="alamat" value="<?= session()->get('alamat') ?>" disabled readonly>
+                                            <input type="text" class="form-control" name="alamat" value="no data" disabled readonly>
                                         </div>
                                         <div class="form-group">
                                             <label>Nomor WhatsApp</label>
-                                            <input type="text" class="form-control" name="no_tlp" value="<?= session()->get('no_tlp') ?>" disabled readonly>
+                                            <input type="text" class="form-control" name="no_tlp" value="no data" disabled readonly>
                                         </div>
                                     </form>
                                 </div>
@@ -62,7 +62,7 @@
                         <div class="card-body">
                             <div class="row">
                                 <div class="col">
-                                    <form action="<?= base_url('admin/ganti_password') ?>" method="post">
+                                    <form action="#" method="post">
                                         <div class="form-group">
                                             <label for="new_password">Password Baru</label>
                                             <input type="password" class="form-control" id="new_password" name="new_password">
