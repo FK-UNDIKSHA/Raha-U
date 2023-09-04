@@ -32,19 +32,19 @@
                             <form action="#" method="POST">
                                 <div class="form-group">
                                     <label for="nama">Nama Lengkap</label>
-                                    <input type="text" class="form-control" id="nama" name="nama" required title="Masukkan nama lengkap kamu!">
+                                    <input type="text" class="form-control" id="nama" name="nama" required placeholder="Masukkan nama lengkap kamu!">
                                 </div>
                                 <div class="form-group">
                                     <label for="email">E-mail</label>
-                                    <input type="email" class="form-control" id="email" name="email" required>
+                                    <input type="email" class="form-control" id="email" name="email" required placeholder="Masukkan e-mail kamu!">
                                 </div>
                                 <div class="form-group">
                                     <label for="alamat">Alamat</label>
-                                    <input type="text" class="form-control" id="alamat" name="alamat" required>
+                                    <input type="text" class="form-control" id="alamat" name="alamat" required placeholder="Masukkan alamat asli kamu!">
                                 </div>
                                 <div class="form-group">
                                     <label for="whatsapp">Nomor WhatsApp</label>
-                                    <input type="text" class="form-control" id="whatsapp" name="whatsapp" required>
+                                    <input type="text" class="form-control" id="whatsapp" name="whatsapp" required placeholder="Masukkan nomor WhatsApp yang kamu gunakan!">
                                 </div>
                                 <button type="submit" class="btn btn-primary">Simpan</button>
                             </form>
