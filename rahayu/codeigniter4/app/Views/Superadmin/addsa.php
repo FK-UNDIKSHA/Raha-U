@@ -102,8 +102,8 @@
 
     document.getElementById('btnBatal').addEventListener('click', function() {
         Swal.fire({
-            title: 'Konfirmasi',
-            text: 'Apakah Anda yakin ingin membatalkan?',
+            title: 'WARNING',
+            text: 'Data yang sudah dimasukkan tidak akan disimpan, anda yakin?',
             icon: 'warning',
             showCancelButton: true,
             confirmButtonText: 'Ya, Batalkan',
@@ -111,7 +111,7 @@
         }).then((result) => {
             if (result.isConfirmed) {
                 // Redirect ke halaman lain atau lakukan tindakan lain saat pembatalan
-                // Misalnya, window.location.href = 'halaman_lain.php';
+                window.location.href = '<?php echo site_url('superadmin/pengguna') ?>';
             }
         });
     });
