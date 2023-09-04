@@ -45,7 +45,7 @@
                                         </div>
                                         <div class="form-group">
                                             <label>Nomor WhatsApp</label>
-                                            <input type="text" class="form-control" name="level" value="<?= session()->get('no_tlp') ?>" disabled readonly>
+                                            <input type="text" class="form-control" name="no_tlp" value="<?= session()->get('no_tlp') ?>" disabled readonly>
                                         </div>
                                     </form>
                                 </div>
