@@ -1,7 +1,7 @@
 <?php
 
 //namespace App\Controllers;
-namespace App\Controllers\Dokter;
+namespace App\Controllers\Superadmin;
 use App\Controllers\BaseController;
 
 class Dashboard extends BaseController
