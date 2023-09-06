@@ -43,6 +43,12 @@ $routes->get('superadmin/pengguna', 'Superadmin\Pengguna::index');
 $routes->get('superadmin/addsa', 'Superadmin\Pengguna::addsa');
 $routes->get('superadmin/profile', 'Superadmin\Pengguna::myprofile');
 
+// kontroler dokter
+$routes->get('dokter/dashboard', 'Dokter\Dashboard::index');
+$routes->get('dokter/jadwal', 'Dokter\JadwalDokter::index');
+$routes->get('dokter/pengguna', 'Dokter\Pengguna::index');
+$routes->get('dokter/profile', 'Dokter\Pengguna::myprofile');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
