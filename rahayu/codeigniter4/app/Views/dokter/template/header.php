@@ -36,4 +36,4 @@
     </style>
 
 </head>
-<?= view('Superadmin/template/sidebar') ?>
+<?= view('Dokter/template/sidebar') ?>
