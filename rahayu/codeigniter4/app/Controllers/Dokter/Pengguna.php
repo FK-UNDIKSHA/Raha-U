@@ -1,7 +1,7 @@
 <?php
 
 //namespace App\Controllers;
-namespace App\Controllers\Superadmin;
+namespace App\Controllers\Dokter;
 use App\Controllers\BaseController;
 
 class Pengguna extends BaseController
