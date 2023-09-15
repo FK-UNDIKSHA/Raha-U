@@ -10,6 +10,6 @@ class Dashboard extends BaseController
     {
         $data['title'] = 'RAHA-U | Dashboard';
         helper('form');
-        return view('dokter\dashboard.php', $data);
+        return view('\App\Views\Dokter\dashboard.php', $data);
     }
 }
