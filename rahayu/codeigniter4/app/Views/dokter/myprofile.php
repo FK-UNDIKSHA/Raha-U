@@ -106,4 +106,4 @@
 </script>
 
 
-<?= view('Dokter/template/footer') ?>
+<?= view('dokter/template/footer') ?>
