@@ -36,4 +36,4 @@
     </style>
 
 </head>
-<?= view('Dokter/template/sidebar') ?>
+<?= view('dokter/template/sidebar') ?>
