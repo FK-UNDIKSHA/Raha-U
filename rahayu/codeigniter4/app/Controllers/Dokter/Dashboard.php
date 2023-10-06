@@ -9,6 +9,6 @@ class Dashboard extends BaseController
     public function index()
     {
         $data['title'] = 'RAHA-U | Dashboard';
-        return view('\App\Views\Dokter\dashboard.php', $data);
+        return view('\App\Views\dokter\dashboard.php', $data);
     }
 }
