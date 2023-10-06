@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Controllers;
+//namespace App\Controllers;
 namespace App\Controllers\Dokter;
 use App\Controllers\BaseController;
 
