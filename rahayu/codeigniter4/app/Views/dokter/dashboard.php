@@ -34,4 +34,4 @@
 <!-- login sukses -->
 
 
-<?= view('Dokter/template/footer') ?>
+<?= view('dokter/template/footer') ?>
